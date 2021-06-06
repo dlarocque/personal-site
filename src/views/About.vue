@@ -10,4 +10,9 @@ export default {
   components: {},
 };
 </script>
-<style></style>
+
+<style>
+.about {
+  text-align: center;
+}
+</style>

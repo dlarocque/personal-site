@@ -1,10 +1,11 @@
 <template>
   <v-app-bar dark fixed app>
-    <!-- v-app-bar-title text is truncated in 2.4.0, using span instead -->
-    <span class="appbartitle">Daniel La Rocque</span>
+    <router-link to="/" class="routerlink">
+      <!-- v-app-bar-title text is truncated in 2.4.0, using span instead -->
+      <span class="appbartitle">Daniel La Rocque</span>
+    </router-link>
     <v-spacer></v-spacer>
     <nav>
-      <router-link to="/" class="routerlink">Home</router-link>
       <router-link to="/about" class="routerlink">About</router-link>
       <router-link to="/projects" class="routerlink">Projects</router-link>
       <router-link to="/contact" class="routerlink">Contact</router-link>
