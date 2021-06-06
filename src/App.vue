@@ -1,6 +1,6 @@
 <template>
   <v-app>
-    <v-main class="vmain">
+    <v-main>
       <NavigationBar />
       <Home />
       <About />
@@ -28,3 +28,9 @@ export default {
   }),
 };
 </script>
+
+<style>
+html {
+  scroll-behavior: smooth;
+}
+</style>

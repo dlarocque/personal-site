@@ -1,6 +1,6 @@
 <template>
   <body>
-    <div class="contact">
+    <section id="contact">
       <h1>Contact</h1>
       <p>
         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deserunt
@@ -8,7 +8,7 @@
         quisquam, repellat in similique laborum culpa expedita voluptatum
         numquam consequatur laudantium id dolore.
       </p>
-    </div>
+    </section>
   </body>
 </template>
 

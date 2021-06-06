@@ -1,6 +1,6 @@
 <template>
   <body>
-    <section class="home">
+    <section id="home">
       <h1>Welcome to my personal website!</h1>
       <p>
         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deserunt
@@ -21,7 +21,6 @@ export default {
 
 <style>
 body {
-  height: 100%;
   width: 100%;
 }
 

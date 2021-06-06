@@ -1,6 +1,6 @@
 <template>
   <body>
-    <div class="about">
+    <section id="about">
       <h1>About</h1>
       <p>
         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deserunt
@@ -8,8 +8,7 @@
         quisquam, repellat in similique laborum culpa expedita voluptatum
         numquam consequatur laudantium id dolore.
       </p>
-      <br />
-    </div>
+    </section>
   </body>
 </template>
 
