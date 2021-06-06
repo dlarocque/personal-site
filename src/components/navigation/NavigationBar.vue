@@ -7,6 +7,7 @@
       <nav>
         <router-link to="/" class="routerlink">Home</router-link>
         <router-link to="/about" class="routerlink">About</router-link>
+        <router-link to="/projects" class="routerlink">Projects</router-link>
         <router-link to="/contact" class="routerlink">Contact</router-link>
       </nav>
     </v-app-bar>
