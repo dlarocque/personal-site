@@ -25,6 +25,15 @@ export default {
   font-size: 20px;
 }
 
+.routerlink:hover {
+  color: lightslategray;
+}
+
+nav .routerlink.active,
+nav .routerlink.active {
+  color: lightslategray;
+}
+
 .routerlink {
   color: whitesmoke;
   text-decoration: none;
