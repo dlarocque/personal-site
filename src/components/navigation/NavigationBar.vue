@@ -5,7 +5,7 @@
       <span class="appbartitle">Daniel La Rocque</span>
       <v-spacer></v-spacer>
       <nav>
-        <router-link to="/home" class="routerlink">Home</router-link>
+        <router-link to="/" class="routerlink">Home</router-link>
         <router-link to="/about" class="routerlink">About</router-link>
         <router-link to="/contact" class="routerlink">Contact</router-link>
       </nav>
