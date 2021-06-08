@@ -43,7 +43,7 @@ h3 {
 p {
   margin-left: auto;
   margin-right: auto;
-  width: 100vh;
+  width: 80vh;
 }
 
 .home {
