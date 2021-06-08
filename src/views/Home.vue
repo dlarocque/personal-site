@@ -1,11 +1,11 @@
 <template>
   <section id="home">
-    <h1>Welcome to my personal website!</h1>
+    <h1>Daniel La Rocque</h1>
+    <h3>Undergraduate Computer Science Student</h3>
     <p>
-      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deserunt soluta
-      dolores veniam vel exercitationem laboriosam odit voluptatibus quisquam,
-      repellat in similique laborum culpa expedita voluptatum numquam
-      consequatur laudantium id dolore.
+      This is where you can some basic information about me, but mainly the
+      projects I've worked on. The projects I have are still limited, but I hope
+      that one day this site will be full of interesting and diverse projects.
     </p>
   </section>
 </template>
@@ -24,8 +24,20 @@ section {
   align-items: center;
   justify-content: center;
   text-align: center;
-  width: 100%;
+  width: 60%;
   height: 80vh;
+  background-color: white;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h1 {
+  font-size: 40px;
+  margin-bottom: 15px;
+}
+
+h3 {
+  margin-bottom: 30px;
 }
 
 p {

@@ -2,13 +2,13 @@
   <v-app>
     <v-main>
       <NavigationBar />
-      <Home />
-      <About />
-      <Projects />
-      <Contact />
-      <transition name="smooth">
-        <router-view />
-      </transition>
+      <div class="content">
+        <Home />
+        <About />
+        <Projects />
+        <Contact />
+      </div>
+      <router-view />
     </v-main>
   </v-app>
 </template>
@@ -32,5 +32,9 @@ export default {
 <style>
 html {
   scroll-behavior: smooth;
+}
+
+.content {
+  background-color: lightgray;
 }
 </style>
