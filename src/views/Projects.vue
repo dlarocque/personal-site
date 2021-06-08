@@ -1,15 +1,13 @@
 <template>
-  <body>
-    <section id="projects">
-      <h1>Projects</h1>
-      <p>
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deserunt
-        soluta dolores veniam vel exercitationem laboriosam odit voluptatibus
-        quisquam, repellat in similique laborum culpa expedita voluptatum
-        numquam consequatur laudantium id dolore.
-      </p>
-    </section>
-  </body>
+  <section id="projects">
+    <h1>Projects</h1>
+    <p>
+      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deserunt soluta
+      dolores veniam vel exercitationem laboriosam odit voluptatibus quisquam,
+      repellat in similique laborum culpa expedita voluptatum numquam
+      consequatur laudantium id dolore.
+    </p>
+  </section>
 </template>
 
 <script>
@@ -20,11 +18,9 @@ export default {
 </script>
 
 <style>
-body {
-  height: 100%;
-  width: 100%;
-}
 .projects {
   text-align: center;
+  height: 100%;
+  width: 100%;
 }
 </style>

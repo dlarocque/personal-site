@@ -1,15 +1,13 @@
 <template>
-  <body>
-    <section id="home">
-      <h1>Welcome to my personal website!</h1>
-      <p>
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deserunt
-        soluta dolores veniam vel exercitationem laboriosam odit voluptatibus
-        quisquam, repellat in similique laborum culpa expedita voluptatum
-        numquam consequatur laudantium id dolore.
-      </p>
-    </section>
-  </body>
+  <section id="home">
+    <h1>Welcome to my personal website!</h1>
+    <p>
+      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deserunt soluta
+      dolores veniam vel exercitationem laboriosam odit voluptatibus quisquam,
+      repellat in similique laborum culpa expedita voluptatum numquam
+      consequatur laudantium id dolore.
+    </p>
+  </section>
 </template>
 
 <script>
@@ -20,10 +18,6 @@ export default {
 </script>
 
 <style>
-body {
-  width: 100%;
-}
-
 section {
   display: flex;
   flex-direction: column;
