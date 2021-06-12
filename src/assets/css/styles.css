@@ -43,14 +43,45 @@ iframe {
     text-align: center;
 }
 
-#projects {
-    vertical-align: top;
-}
-
 #projects h1 {
     margin-bottom: 10vh;
 }
 
 #projects .description {
     margin-top: 4vh;
+}
+
+.routebuttons {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.contactbuttons {
+    position: absolute;
+    right: 2vh;
+}
+
+.routebuttons .routerlink {
+    color: whitesmoke;
+    text-decoration: none;
+    font-size: 18px;
+    margin-left: 12px;
+    margin-right: 12px;
+}
+
+.routebuttons .routerlink:visited {
+    color: whitesmoke;
+}
+
+.routebuttons .routerlink:hover {
+    color: lightslategray;
+}
+
+.routebuttons .routerlink.active {
+    color: darkgray;
+}
+
+.routebuttons .contactbutton {
+    text-align: left;
 }
