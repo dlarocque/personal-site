@@ -1,19 +1,16 @@
 <template>
   <section id="projects">
     <h1>Projects</h1>
-    <p>
-      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deserunt soluta
-      dolores veniam vel exercitationem laboriosam odit voluptatibus quisquam,
-      repellat in similique laborum culpa expedita voluptatum numquam
-      consequatur laudantium id dolore.
-    </p>
+    <algorithm-visualizer />
   </section>
 </template>
 
 <script>
+import AlgorithmVisualizer from "../components/projects/AlgorithmVisualizer.vue";
+
 export default {
   name: "Projects",
-  components: {},
+  components: { AlgorithmVisualizer },
 };
 </script>
 
@@ -22,5 +19,9 @@ export default {
   text-align: center;
   height: 100%;
   width: 100%;
+}
+
+h1 {
+  margin-bottom: 10vh;
 }
 </style>
