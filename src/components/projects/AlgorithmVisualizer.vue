@@ -18,7 +18,10 @@
       <p>
         This is the first decently sized personal project I've ever made. I made
         it in the summer of my freshman year of university, and was inspired by
-        a YouTube video to try making these visualizations on my own.
+        a YouTube video to try making these visualizations on my own. This is
+        the first decently sized personal project I've ever made. I made it in
+        the summer of my freshman year of university, and was inspired by a
+        YouTube video to try making these visualizations on my own.
       </p>
     </div>
     <a href="https://github.com/dlarocque/algorithm-visualizer" target="blank"
@@ -51,17 +54,5 @@ export default {
 </script>
 
 <style>
-.algorithm-visualizer {
-  text-align: center;
-}
-
-.description {
-  margin-top: 4vh;
-}
-
-iframe {
-  margin-top: 3vh;
-  width: 500;
-  height: 400;
-}
+@import "../../assets/css/styles.css";
 </style>

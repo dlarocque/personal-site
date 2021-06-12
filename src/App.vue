@@ -28,13 +28,3 @@ export default {
   }),
 };
 </script>
-
-<style>
-html {
-  scroll-behavior: smooth;
-}
-
-.content {
-  background-color: lightgray;
-}
-</style>

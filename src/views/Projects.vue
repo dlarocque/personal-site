@@ -13,15 +13,3 @@ export default {
   components: { AlgorithmVisualizer },
 };
 </script>
-
-<style>
-.projects {
-  text-align: center;
-  height: 100%;
-  width: 100%;
-}
-
-h1 {
-  margin-bottom: 10vh;
-}
-</style>

@@ -16,11 +16,3 @@ export default {
   components: {},
 };
 </script>
-
-<style>
-.contact {
-  text-align: center;
-  height: 100%;
-  width: 100%;
-}
-</style>
