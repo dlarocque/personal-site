@@ -47,8 +47,14 @@ iframe {
     margin-bottom: 10vh;
 }
 
-#projects .description {
-    margin-top: 4vh;
+#projects .routerlink {
+    text-decoration: none;
+    color: darkslategray;
+}
+
+#projects a {
+    text-decoration: none;
+    color: darkslategray
 }
 
 .routebuttons {

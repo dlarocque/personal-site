@@ -6,7 +6,7 @@
         <Home />
         <About />
         <Projects />
-        <Contact />
+        <AlgorithmVisualizer />
       </div>
       <router-view />
     </v-main>
@@ -18,11 +18,11 @@ import NavigationBar from "./components/navigation/NavigationBar.vue";
 import Home from "./views/Home.vue";
 import About from "./views/About.vue";
 import Projects from "./views/Projects.vue";
-import Contact from "./views/Contact.vue";
+import AlgorithmVisualizer from "./views/projects/AlgorithmVisualizer.vue";
 
 export default {
   name: "App",
-  components: { NavigationBar, Home, About, Projects, Contact },
+  components: { NavigationBar, Home, About, Projects, AlgorithmVisualizer },
   data: () => ({
     //
   }),
