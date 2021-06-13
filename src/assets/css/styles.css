@@ -81,7 +81,7 @@ iframe {
 }
 
 .routebuttons .routerlink:hover {
-    color: lightslategray;
+    color:darkgray;
 }
 
 .routebuttons .routerlink.active {
@@ -90,4 +90,12 @@ iframe {
 
 .routebuttons .contactbutton {
     text-align: left;
+}
+
+#gambot h2 {
+    margin-bottom: 3vh;
+}
+
+#algorithm-visualizer h2 {
+    margin-bottom: 3vh
 }

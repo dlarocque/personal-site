@@ -25,13 +25,13 @@
         YouTube video to try making these visualizations on my own.
       </p>
     </div>
-    <a href="https://github.com/dlarocque/algorithm-visualizer" target="blank"
+    <a href="https://github.com/dlarocque/algorithm-visualizer" target="_blank"
       >Source Code</a
     >
     <br />
     <a
       href="https://github.com/dlarocque/algorithm-visualizer/blob/master/README.md"
-      target="blank"
+      target="_blank"
       >More Information</a
     >
     <br />

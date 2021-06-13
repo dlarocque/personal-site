@@ -11,7 +11,7 @@
       university's intro CS course. After spending two years learning the ropes
       in University, I'm now learning about the practical applications of my
       learnings through my first internship at
-      <a href="https://www.bell.ca/Mobility/Our_network" target="blank"
+      <a href="https://www.bell.ca/Mobility/Our_network" target="_blank"
         >Bell Canada</a
       >, in Montreal.<br /><br />
       Outside of working at my intership, I like working on some of my own
