@@ -17,37 +17,3 @@ export default {
   components: {},
 };
 </script>
-
-<style>
-section {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  width: 60%;
-  height: 80vh;
-  background-color: white;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-h1 {
-  font-size: 40px;
-  margin-bottom: 15px;
-}
-
-h3 {
-  margin-bottom: 30px;
-}
-
-p {
-  margin-left: auto;
-  margin-right: auto;
-  width: 80vh;
-}
-
-.home {
-  text-align: center;
-}
-</style>

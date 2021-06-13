@@ -1,6 +1,6 @@
 <template>
   <v-app-bar dark fixed app>
-    <nav>
+    <div class="routebuttons">
       <router-link :to="{ path: '/', hash: '#home' }" class="routerlink"
         >Home</router-link
       >
@@ -10,10 +10,37 @@
       <router-link :to="{ path: '/', hash: '#projects' }" class="routerlink"
         >Projects</router-link
       >
-      <router-link :to="{ path: '/', hash: '#contact' }" class="routerlink"
-        >Contact</router-link
+    </div>
+    <div class="contactbuttons">
+      <v-btn
+        icon
+        large
+        right
+        dense
+        href="mailto:dlarocque.contact@gmail.com"
+        class="contactbutton"
       >
-    </nav>
+        <v-icon>mdi-email</v-icon>
+      </v-btn>
+      <v-btn
+        icon
+        large
+        href="https://www.linkedin.com/in/daniel-la-rocque-2b102b189/"
+        target="blank"
+        class="contactbutton"
+      >
+        <v-icon>mdi-linkedin</v-icon>
+      </v-btn>
+      <v-btn
+        icon
+        large
+        href="https://github.com/dlarocque"
+        target="blank"
+        class="contactbutton"
+      >
+        <v-icon>mdi-github</v-icon>
+      </v-btn>
+    </div>
   </v-app-bar>
 </template>
 
@@ -23,26 +50,3 @@ export default {
   components: {},
 };
 </script>
-
-<style scoped>
-nav {
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.routerlink:hover {
-  color: lightslategray;
-}
-
-nav .routerlink.active {
-  color: darkgray;
-}
-
-.routerlink {
-  color: whitesmoke;
-  text-decoration: none;
-  font-size: 18px;
-  margin-left: 12px;
-  margin-right: 12px;
-}
-</style>
