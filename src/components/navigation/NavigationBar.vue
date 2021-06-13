@@ -26,7 +26,7 @@
         icon
         large
         href="https://www.linkedin.com/in/daniel-la-rocque-2b102b189/"
-        target="blank"
+        target="_blank"
         class="contactbutton"
       >
         <v-icon>mdi-linkedin</v-icon>
@@ -35,7 +35,7 @@
         icon
         large
         href="https://github.com/dlarocque"
-        target="blank"
+        target="_blank"
         class="contactbutton"
       >
         <v-icon>mdi-github</v-icon>

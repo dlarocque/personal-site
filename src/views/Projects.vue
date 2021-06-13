@@ -25,7 +25,7 @@
                 ></v-btn
               >
               <v-btn
-                ><a href="https://github.com/dlarocque/gambot" target="blank"
+                ><a href="https://github.com/dlarocque/gambot" target="_blank"
                   >Source Code</a
                 ></v-btn
               >
@@ -49,7 +49,7 @@
                 ></v-btn
               >
               <v-btn
-                ><a href="https://github.com/dlarocque/gambot" target="blank"
+                ><a href="https://github.com/dlarocque/gambot" target="_blank"
                   >Source Code</a
                 ></v-btn
               >
