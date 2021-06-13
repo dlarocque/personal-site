@@ -19,7 +19,7 @@
             <v-card-actions>
               <v-btn>
                 <router-link
-                  :to="{ path: '/', hash: '#gambot' }"
+                  :to="{ path: '/', hash: '#algorithm-visualizer' }"
                   class="routerlink"
                   >Details</router-link
                 ></v-btn
@@ -43,15 +43,13 @@
             <v-card-actions>
               <v-btn>
                 <router-link
-                  :to="{ path: '/', hash: '#algorithm-visualizer' }"
+                  :to="{ path: '/', hash: '#gambot' }"
                   class="routerlink"
                   >Details</router-link
                 ></v-btn
               >
               <v-btn
-                ><a
-                  href="https://github.com/dlarocque/algorithm-visualizer"
-                  target="blank"
+                ><a href="https://github.com/dlarocque/gambot" target="blank"
                   >Source Code</a
                 ></v-btn
               >
